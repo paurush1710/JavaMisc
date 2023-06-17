@@ -33,7 +33,7 @@ public class HomeController {
 // Now how to fetch in home.jsp
 // Add this is home.jsp -> ${name}		
 		
-		req.setAttribute(name, name);
+		session.setAttribute(name, name);
 		return "home.jsp";
 	}
 // If there is no change in url : http://localhost:8080/home?name=john
