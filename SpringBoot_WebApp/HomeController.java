@@ -39,7 +39,8 @@ public class HomeController {
 		mv.addObject("obj", alien);
 		return mv;
 	}
-	
+
+	// http://localhost:8080/home?aid=1&aname=Jakab&lang=Java
 	// Output - WELCOME 1 , Jakab , Java
 	
 }
